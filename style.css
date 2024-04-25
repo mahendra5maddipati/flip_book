@@ -30,7 +30,7 @@ body{
 		transition:transform 1s;
 		transform:rotate3d(0 ,1 , 0, 0deg);
 		transform-origin:left 0px;
-		//border:1px solid #000;
+		border:1px solid #000;
 		.page{
 			transform-style: preserve-3d;
 			position:absolute;
@@ -53,7 +53,7 @@ body{
 		}
 		&.turned{
 			
-			//transform:rotatey(180deg);
+			transform:rotatey(180deg);
 		}
 	}
 }
@@ -63,7 +63,7 @@ body{
 }
 
 
-//Book page Styles
+
 
 .title{
 	text-align:center;
@@ -132,5 +132,5 @@ body[onload]{
 }
 
 .cd__intro{
-	background-color:#c0e;// Someone is using this on their website and i want to see how good their security is xd
+	background-color:#c0e;
 }
